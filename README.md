@@ -2,4 +2,4 @@
 
 https://adventofcode.com/
 
-Create a folder in the format of <username> - <language>
+Create a folder in the format of username - language
