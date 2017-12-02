@@ -1,0 +1,1 @@
+let d2_1=x=>x.split('\n').reduce((s,r)=>s+Math.max(...r)-Math.min(...r.split(' ')),0)
