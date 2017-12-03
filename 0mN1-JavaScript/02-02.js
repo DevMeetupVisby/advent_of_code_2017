@@ -1,0 +1,1 @@
+let d2_2=x=>x.split('\n').reduce((s,r)=>s+r.split('\t').sort((a,b)=>a-b).reduce((p,n)=>({d:p.l.reduce((q,w)=>n%w?q:n/w,p.d),l:[...p.l,n]}),{l:[]}).d,0)
